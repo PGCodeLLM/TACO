@@ -1,0 +1,9 @@
+# EvalHub TACO Integration Requirements
+# Minimal dependencies for vLLM API-based evaluation
+
+# HTTP client for vLLM API integration
+openai>=1.0.0
+httpx>=0.24.0
+
+# Dataset loading
+datasets>=2.14.0
